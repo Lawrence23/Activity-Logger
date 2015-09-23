@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Activity Logger</title>
+	<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<h1>Activity Logger</h1>
+		<span id="add" data-toggle="modal" data-target="#myModal">+</span>
+	</header>
+	<ul class="list-group" id="activity-list">
+		<!-- <li class="list-group-item" id="act">
+			<span class="activities">Activity1</span>
+		</li> -->
+	</ul>
+
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+		  		<div class="modal-header">
+		    		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		    			<span aria-hidden="true">&times;</span>
+		    		</button>
+		    		<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+		  		</div>
+		  		<div class="modal-body">
+		  			<div class="input-group input-group-lg">
+  						<span class="input-group-addon" id="sizing-addon1">Activity Name</span>
+  						<input type="text" class="form-control" placeholder="Activity Name" aria-describedby="sizing-addon1" id="activity-name">
+					</div>
+		  		</div>
+		  		<div class="modal-footer">
+		    		<button type="button" class="btn btn-default" data-dismiss="modal" id="create">Create</button>
+		    	</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer>
+		
+	</footer>
+	<script src="jquery-1.11.2.min.js"></script>
+	<script src="bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+<!-- 	<script src="timer.js"></script>
+ -->	<script src="script.js"></script>
+</body>
+</html>

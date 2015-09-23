@@ -1,0 +1,30 @@
+header {
+	background-color: #085380;
+	height: 70px;
+	width: auto;
+}
+h1 {
+  	margin-top: 0;
+  	padding: 10px;
+  	color: #fff;
+  	float: left;
+}
+#add {
+	font-size: 50px;
+	float: right;
+	width: 75px;
+  	padding-left: 25px;
+  	color: #fff;
+}
+#add:hover {
+	cursor: pointer;
+	background-color: #12384F;
+}
+.activities {
+	font-size: 30px;
+  	padding-right: 45px;
+}
+.form-control {
+	width: 33%;
+	display: initial;
+}
